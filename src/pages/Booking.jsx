@@ -1,4 +1,6 @@
 import { useState } from "react";
+import { dataBase } from "../firebase/fireBase"
+
 
 export const Booking = () => {
   const firstBooking = {
@@ -6,14 +8,17 @@ export const Booking = () => {
     people: "",
     date: "",
     phone: "",
+    email: "",
   };
 
   const [booking, setBooking] = useState(firstBooking);
 
-  const onSubmit = (e) => {
+  const onSubmit = async (e) => {
     e.preventDefault();
+    await dataBase.collection("bookings").add(booking)
     console.log("Submitted Form");
     console.log("booking");
+    setBooking(firstBooking)
   };
 
   const onChange = (e) => {
@@ -57,6 +62,14 @@ setBooking({ ...booking, [e.target.name]: e.target.value})
           name="phone"
           placeholder="Phone Number"
           value={booking.phone}
+          onChange={onChange}
+        />
+        <input
+          type="email"
+          className="form-control mt-3"
+          name="email"
+          placeholder="Email"
+          value={booking.email}
           onChange={onChange}
         />
         <button type="submit" className="btn btn-primary mt-3">
