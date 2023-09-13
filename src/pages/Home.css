@@ -1,0 +1,16 @@
+
+body {
+    background-image: url("../assets/home.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+ }
+  
+
+h1 {
+    display: flex;
+    justify-content: center;
+    font-size: 120px;
+    font-weight: bolder;
+    color: rgb(230, 221, 207);
+}

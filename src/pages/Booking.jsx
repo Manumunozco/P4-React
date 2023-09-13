@@ -1,3 +1,4 @@
+import "./Booking.css"
 import { useState } from "react";
 import { dataBase } from "../firebase/fireBase"
 
@@ -29,7 +30,7 @@ setBooking({ ...booking, [e.target.name]: e.target.value})
 
   return (
     <>
-      <h1>Booking</h1>
+      <h1>Book and enjoy with Us!</h1>
 
       <form className="form gap-5 p-5" onSubmit={onSubmit}>
         <input
