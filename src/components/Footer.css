@@ -3,11 +3,11 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: #918e9c;
+    background-color: transparent;
     color: black;
     width: 100%;
-    min-height: 400px;
-    /* margin-top: 40px; */
+    min-height: 100px;
+    margin-top: 280px;
   }
   
   .bakeryPhoto {
