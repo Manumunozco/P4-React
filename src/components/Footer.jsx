@@ -1,14 +1,3 @@
-// export const Footer = () => {
-//   return (
-//     <>
-//     <div className="bg-grey">
-// <h3>Copyright © 2023 Manumunozco</h3>
-//     </div>
-//     </>
-//   )
-// }
-
-
 import "./Footer.css"
 
 export const Footer = () => {

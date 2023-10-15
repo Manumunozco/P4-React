@@ -13,12 +13,15 @@ export const Booking = () => {
   };
 
   const [booking, setBooking] = useState(firstBooking);
+  const [bookingMade, setBookingMade] = useState(false);
 
   const onSubmit = async (e) => {
     e.preventDefault();
     await dataBase.collection("bookings").add(booking)
     console.log("Submitted Form");
     console.log("booking");
+    setBookingMade(true);
+    
     setBooking(firstBooking)
   };
 
@@ -31,6 +34,12 @@ setBooking({ ...booking, [e.target.name]: e.target.value})
   return (
     <>
       <h1>Book and enjoy with Us!</h1>
+
+{bookingMade && (
+      <div className="success-message">
+  Thank you for your booking! We look forward to serving you.
+</div>
+)}
 
       <form className="form gap-5 p-5" onSubmit={onSubmit}>
         <input
@@ -76,6 +85,7 @@ setBooking({ ...booking, [e.target.name]: e.target.value})
         <button type="submit" className="btn btn-primary mt-3">
           Book a Table
         </button>
+        
       </form>
     </>
   );
