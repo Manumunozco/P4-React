@@ -7,9 +7,11 @@
 }
 
 h1{
-display: flex;
-justify-content: center;
-margin-bottom: 15px;
+  display: flex;
+  justify-content: center;
+  font-size: 120px;
+  font-weight: bolder;
+  color: rgb(230, 221, 207);
 }
 
 p{
@@ -20,8 +22,8 @@ margin-bottom: 25px;
 }
 
 .slider-container {
-  width: 80%;
-  margin: 0 auto;
+  max-width: 800px; 
+    margin: 0 auto;
 }
 
 
@@ -32,7 +34,9 @@ margin-bottom: 25px;
 
 
 .image-container img {
+  display: block;
+  margin: 0 auto;
   width: 100%;
-  max-width: 100%;
-  height: 800px;
+  height: auto;
+  max-width: 800px;
 }

@@ -8,3 +8,21 @@
     font-size: 50px;
     color: bisque;
 }
+
+img{
+    display: flex;
+  justify-content: center;
+    width: 500px;
+    height: 500px;
+}
+
+.imgContainer{
+    display: flex;
+  justify-content: center;
+}
+
+.Story{
+
+    margin: 25px;
+    margin-bottom: 40px;
+}
