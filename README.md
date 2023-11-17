@@ -63,9 +63,11 @@ This is my fourth project, so, same like my others projects, if you think I need
 
 Thanks to:
 
-Photo by <a href="https://unsplash.com/@jeremyyappy?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Jeremy Yap</a> on <a href="https://unsplash.com/photos/h3tP-D2eABI?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
+Photo by <a href="https://unsplash.com/@angelopantazis?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Angelo Pantazis</a> on <a href="https://unsplash.com/photos/grilled-meat-on-black-grill-2-U0A2tNYhM?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
 
-Photo by <a href="https://unsplash.com/@ulysse_pcl?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Ulysse Pointcheval</a> on <a href="https://unsplash.com/photos/1WmlAiYgnoI?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
+  
+Photo by <a href="https://unsplash.com/@picoftasty?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Mae Mu</a> on <a href="https://unsplash.com/photos/assorted-breads-in-basket-Emhz3miT6mo?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
+  
 
 
 

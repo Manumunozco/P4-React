@@ -1,0 +1,25 @@
+.container-fluid{
+    background-color: rgb(238, 83, 83);
+    font-size: 30px;
+    color: aliceblue;
+}
+
+.navbar-brand{
+    background-color: rgb(238, 83, 83);
+    font-size: 30px;
+    color: aliceblue;
+}
+
+.nav-link{
+    font-size: 30px;
+    color: aliceblue;
+}
+
+.btn btn-outline-success{
+    color: aliceblue;
+}
+.iconNav img {
+    width: 20px;
+    height: 20px;
+  }
+  

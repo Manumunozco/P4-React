@@ -1,16 +1,38 @@
 
-body {
-    background-image: url("../assets/home.jpg");
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
- }
-  
 
-h1 {
-    display: flex;
-    justify-content: center;
-    font-size: 120px;
-    font-weight: bolder;
-    color: rgb(230, 221, 207);
+.animated{
+  margin-top: 50px;
+  margin-bottom: 50px;
+  text-align: center;
+}
+
+h1{
+display: flex;
+justify-content: center;
+margin-bottom: 15px;
+}
+
+p{
+  display: flex;
+justify-content: center;
+margin-top: 15px;
+margin-bottom: 25px;
+}
+
+.slider-container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+
+.image-container {
+  display: flex;
+  justify-content: center;
+}
+
+
+.image-container img {
+  width: 100%;
+  max-width: 100%;
+  height: 800px;
 }

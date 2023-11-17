@@ -1,14 +1,15 @@
-import { NavLink } from "react-router-dom"
-import "./NavBar.css"
+import { NavLink } from "react-router-dom";
+import "./NavBar.css";
+import iconImage from '../assets/search.png';
 
 export const NavBar = () => {
   return (
     <>
       <nav className="navbar navbar-expand-lg bg-body-tertiary bg-dark border-bottom border-body">
         <div className="container-fluid">
-          <NavLink className="navbar-brand" to="/">
+          {/* <NavLink className="navbar-brand" to="/">
             Oli-Bakery
-          </NavLink>
+          </NavLink> */}
           <button
             className="navbar-toggler"
             type="button"
@@ -23,13 +24,13 @@ export const NavBar = () => {
           <div className="collapse navbar-collapse" id="navbarSupportedContent">
             <ul className="navbar-nav me-auto mb-2 mb-lg-0">
               <li className="nav-item">
-                <NavLink className="nav-link active" aria-current="page" to="/">
+                <NavLink className="nav-link" aria-current="page" to="/">
                   Home
                 </NavLink>
               </li>
               <li className="nav-item">
                 <NavLink className="nav-link" to="/About">
-                  About
+                  Our Story
                 </NavLink>
               </li>
               <li className="nav-item">
@@ -42,7 +43,12 @@ export const NavBar = () => {
                   Booking
                 </NavLink>
               </li>
-                </ul>
+            </ul>
+            <li className="collapse navbar-collapse nav-item navbar-nav me-auto mb-2 mb-lg-0">
+                <NavLink className="nav-link" to="/Booking">
+                  Contact
+                </NavLink>
+              </li>
             <form className="d-flex" role="search">
               <input
                 className="form-control me-2"
@@ -50,8 +56,10 @@ export const NavBar = () => {
                 placeholder="Search"
                 aria-label="Search"
               />
-              <button className="btn btn-outline-success" type="submit">
-                Search
+              <button className="" type="submit">
+                <div className="iconNav">
+                <img src={iconImage} alt="Search Icon" />
+                </div>
               </button>
             </form>
           </div>
