@@ -45,7 +45,7 @@ export const NavBar = () => {
               </li>
             </ul>
             <li className="collapse navbar-collapse nav-item navbar-nav me-auto mb-2 mb-lg-0">
-                <NavLink className="nav-link" to="/Booking">
+                <NavLink className="nav-link" to="/Contact">
                   Contact
                 </NavLink>
               </li>
