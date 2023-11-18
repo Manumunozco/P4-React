@@ -35,12 +35,6 @@ For a correct installation, follow the steps below:
 
     - Open the Index.html file in your browser.
 
-How to use it
-
-
-
-
-
 Elaboration
 
 At this time the tools used in this project are detailed below:

@@ -1,12 +1,11 @@
 
-
-.animated{
+.animated {
   margin-top: 50px;
   margin-bottom: 50px;
   text-align: center;
 }
 
-h1{
+h1 {
   display: flex;
   justify-content: center;
   font-size: 120px;
@@ -14,24 +13,22 @@ h1{
   color: rgb(230, 221, 207);
 }
 
-p{
+p {
   display: flex;
-justify-content: center;
-margin-top: 15px;
-margin-bottom: 25px;
+  justify-content: center;
+  margin-top: 15px;
+  margin-bottom: 25px;
 }
 
-.slider-container {
-  max-width: 800px; 
-    margin: 0 auto;
+.sliderContainer {
+  max-width: 800px;
+  margin: 0 auto;
 }
-
 
 .image-container {
   display: flex;
   justify-content: center;
 }
-
 
 .image-container img {
   display: block;
@@ -39,4 +36,53 @@ margin-bottom: 25px;
   width: 100%;
   height: auto;
   max-width: 800px;
+}
+
+@media screen and (max-width: 768px) {
+  .animated {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+  }
+
+  h1 {
+    font-size: 42px;
+  }
+
+  p {
+    margin-top: 10px;
+    margin-bottom: 15px;
+  }
+
+  .sliderContainer {
+    max-width: 600px;
+  }
+
+  .image-container img {
+    max-width: 600px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .animated {
+    font-size: 3rem !important;
+    line-height: 1 !important;
+  }
+
+  h1 {
+    font-size: 25px;
+  }
+
+  p {
+    margin-top: 5px;
+    margin-bottom: 10px;
+  }
+
+  .sliderContainer {
+    max-width: 400px;
+  }
+
+  .image-container img {
+    max-width: 400px;
+  }
 }

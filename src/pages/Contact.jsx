@@ -1,6 +1,6 @@
 import React, { useState } from "react";
-import { AnimatedText } from '../components/AnimatedText';
-import { dataBase } from "../firebase/fireBase"
+import { AnimatedText } from "../components/AnimatedText";
+import { dataBase } from "../firebase/fireBase";
 import "./Contact.css";
 
 export const Contact = () => {
@@ -20,7 +20,6 @@ export const Contact = () => {
   const handleSubmit = async (e) => {
     e.preventDefault();
 
-
     try {
       await dataBase.collection("contactMessages").add(formData);
       setFormSubmitted(true);
@@ -33,7 +32,10 @@ export const Contact = () => {
   return (
     <>
       <div className="animated">
-        <AnimatedText text="Contact Us" className="lg:!text-7xl sm:!text-6xl xs:!text-4xl sm:mb-8" />
+        <AnimatedText
+          text="Contact Us"
+          className="lg:!text-7xl sm:!text-6xl xs:!text-4xl sm:mb-8"
+        />
       </div>
 
       {formSubmitted && (
@@ -77,4 +79,3 @@ export const Contact = () => {
     </>
   );
 };
-

@@ -1,6 +1,6 @@
 import { NavLink } from "react-router-dom";
 import "./NavBar.css";
-import iconImage from '../assets/search.png';
+import iconImage from "../assets/search.png";
 
 export const NavBar = () => {
   return (
@@ -45,10 +45,10 @@ export const NavBar = () => {
               </li>
             </ul>
             <li className="collapse navbar-collapse nav-item navbar-nav me-auto mb-2 mb-lg-0">
-                <NavLink className="nav-link" to="/Contact">
-                  Contact
-                </NavLink>
-              </li>
+              <NavLink className="nav-link" to="/Contact">
+                Contact
+              </NavLink>
+            </li>
             <form className="d-flex" role="search">
               <input
                 className="form-control me-2"
@@ -58,7 +58,7 @@ export const NavBar = () => {
               />
               <button className="" type="submit">
                 <div className="iconNav">
-                <img src={iconImage} alt="Search Icon" />
+                  <img src={iconImage} alt="Search Icon" />
                 </div>
               </button>
             </form>
