@@ -3,11 +3,13 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: transparent;
+    background-color: rgb(238, 83, 83);
     color: black;
     width: 100%;
     min-height: 100px;
-    margin-top: 80px;
+    margin: 50px;
+    margin-left: 20px;
+    margin-right: 60px;
   }
   
   .bakeryPhoto {
@@ -45,15 +47,18 @@
   
   .map {
     display: flex;
+    justify-content: center;
     align-items: center;
     width: 80px;
     height: 80px;
-margin-top: 50px;  
+margin-top: 70px;  
 margin-bottom: 50px;
   }
   
   .map img {
     width: 80px;
+    display: flex;
+    justify-content: center;
 
     
   }
@@ -61,10 +66,14 @@ margin-bottom: 50px;
   .mapGps{
     width: 500px;
     height: 200px;
+    display: flex;
+    justify-content: center;
   }
   
   .img-location {
     width: 45px;
+    display: flex;
+    justify-content: center;
   }
   
   .socialMedia {
