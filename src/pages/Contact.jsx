@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { AnimatedText } from "../components/AnimatedText";
 import { dataBase } from "../firebase/fireBase";
-import "./Contact.css";
+import "./contact.css";
 
 export const Contact = () => {
   const initialFormState = {
